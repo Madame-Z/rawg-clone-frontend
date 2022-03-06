@@ -1,0 +1,19 @@
+.search-input {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    font-weight: bold;
+    font-family: 'Fredoka', sans-serif;
+    border-radius: 20px;
+    width: 50%;
+    height: 25px;
+    margin-bottom: 50px;
+    transition-duration: 2s;
+    padding-left: 10px;
+    border: 2px rgb(56, 56, 56) solid;
+    align-self: center;
+}
+ 
+.search-input:hover {
+     background-color: white;
+     color: black;
+}
