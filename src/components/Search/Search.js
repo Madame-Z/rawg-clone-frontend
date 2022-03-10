@@ -1,13 +1,14 @@
 import React from "react";
 
-import './Search.css';
+
+import css from './Search.module.css';
 
 export const Search = (props) => {
     const {value, onChange, placeholder} = props
     return (
         <input
             placeholder={placeholder}
-            className="search-input"
+            className={css["search-input"]}
             type="text"
             value={value}
             onChange={onChange}
