@@ -10,14 +10,6 @@ import { FilterSelect } from "../../components/Filters/FilterSelect";
 
 import css from './Home.module.css';
 
-
-let PlatformIcons = {
-    147: "xbox.png",
-
-}
-
-
-
 /////////////////////////////////////////////////////////////////////////
 
 export const Home = () => {
