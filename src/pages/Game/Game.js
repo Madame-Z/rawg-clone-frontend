@@ -25,11 +25,6 @@ export const Game = () => {
         getGame()
     }, [slug]);
 
-
-  
-    
-
-
     return (
         isLoading ? (<Loading type={'spinningBubbles'} color={'#ffffff'} width={100}/>) :
         (
